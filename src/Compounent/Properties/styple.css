@@ -1,0 +1,125 @@
+.goold {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #fca52c 0%, #ffcc33 100%);
+  color: white;
+  min-height: 94vh;
+}
+.silver {
+  font-family: Arial, sans-serif;
+  background-color: silver;
+  color: white;
+  min-height: 94vh;
+}
+.platinum {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #af5aff 0%, #055d94 100%);
+  color: white;
+  min-height: 94vh;
+}
+.diamond {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #29c7ea 0%, #055d94 100%);
+  min-height: 94vh;
+  color: white;
+}
+.bronze {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #e99d33 0%, #b1700d 100%);
+  color: white;
+  min-height: 94vh;
+}
+.dashwidt2 {
+  width: 100%;
+}
+.scll::-webkit-scrollbar {
+  display: none;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.reward-box{
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+tr th {
+  font-size: 18px;
+  padding: 12px;
+  /* border: 1px solid  #ccccccdf; */
+  text-align: left;
+  background-color: #0090f8;
+  color: #fff;
+  /* border: 1px solid #0090f8; */
+}
+.reward-token{
+  font-size: 16px;
+  font-weight: 600;
+}
+tr td {
+  border: 1px solid #0090f8;
+  text-align: left;
+  color: black;
+}
+td {
+  background-color: #ffffffdf;
+  padding: 12px;
+}
+.to {
+  border-top-left-radius: 6px;
+}
+.end {
+  border-top-right-radius: 6px;
+}
+.logoflex {
+  display: flex !important;
+  align-items: center;
+  color: black;
+}
+.hei {
+  height: 32vh !important;
+}
+.grid {
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+}
+
+.grid figure,
+.grid img {
+  width: 100%;
+  height: 70vh;
+  border-radius: 12px;
+}
+
+.grid img {
+  object-fit: cover;
+  /* background: #f5f3f4; */
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.353);
+  height: 100%;
+}
+
+@media (max-width: 850px) {
+  .grid {
+    display: grid;
+    /* grid-gap: 8px; */
+    grid-template-columns: 1fr;
+    list-style: none;
+  }
+  .grid figure,
+  .grid img {
+    width: 100%;
+    height: 100%;
+  }
+  .hei {
+    height: 100% !important;
+  }
+}
+@media (max-width: 1000px) {
+  .dashwidt2 {
+    width: 100%;
+    overflow: scroll !important;
+  }
+}
