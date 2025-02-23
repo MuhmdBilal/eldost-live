@@ -1,5 +1,7 @@
 import Apple from "../../Apple";
 import whitepaper from "../../../public/images/Weldost.Whitepaper.December.2024.pdf";
+import StakigMVP from "../../../public/images/swee.png";
+import BuyMVP from "../../../public/images/buuu6.png";
 import { IoLogoAppleAr } from "react-icons/io5";
 import { DiTechcrunch } from "react-icons/di";
 import { LiaSignalSolid } from "react-icons/lia";
@@ -9,6 +11,7 @@ import { TbSocial } from "react-icons/tb";
 import { SiProgress } from "react-icons/si";
 import FAQ from "../../FAQ";
 import { Link } from "react-router-dom";
+
 function Landing() {
   return (
     <div>
@@ -55,7 +58,7 @@ function Landing() {
               <div className="col-lg-4 col-md-6 col-12">
                 <Link to="/BuyMVP">
                 <img
-                  src="https://weldost.com/wp-content/uploads/2024/10/4_5776386372059273355-1-2048x758.png"
+                  src={BuyMVP}
                   className="w-100"
                   alt=""
                 /></Link>
@@ -67,10 +70,10 @@ function Landing() {
                   alt=""
                 />
               </div> */}
-              <div className="col-lg-4 col-md-6 col-12">
+              <div className="col-lg-4 col-md-6 col-12 mt-2">
               <Link to="/StakigMVP">
                 <img
-                  src="https://weldost.com/wp-content/uploads/2024/10/4_5776386372059273357-2048x758.png"
+                  src={StakigMVP}
                   className="w-100"
                   alt=""
                 /></Link>
